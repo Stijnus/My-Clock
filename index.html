@@ -1,12 +1,19 @@
 <!DOCTYPE html>
     <html lang="en">
-      <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Digital Clock</title>
-      </head>
-      <body class="min-h-screen bg-white dark:bg-gray-900 transition-colors duration-500">
-        <div id="app" class="flex flex-col items-center justify-center min-h-screen"></div>
-        <script type="module" src="/src/main.js"></script>
-      </body>
+
+    <head>
+      <meta charset="UTF-8" />
+      <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Vite App</title>
+      <link rel="stylesheet" href="./src/style.css">
+      <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    </head>
+
+    <body>
+      <div id="app"></div>
+      <audio id="alarmSound" src="https://www.soundjay.com/clock/sounds/clock-alarm-1.mp3" preload="auto"></audio>
+      <script type="module" src="/src/main.js"></script>
+    </body>
+
     </html>
